@@ -26,7 +26,8 @@ DHT11() is disabled
  pin 3 & 8 are common cathode
  resistors used is 220R
   
- Stanley 
+ Stanley Seow
+ stanleyseow@gmail.com
  
  */
 
