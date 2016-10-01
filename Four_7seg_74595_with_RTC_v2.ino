@@ -141,10 +141,7 @@ void setup()
 // Simple function to send serial data to one or more shift registers by iterating backwards through an array.
 // Although g_registers exists, they may not all be being used, hence the input parameter.
 
-void sendSerialData (
-byte registerCount,                     // How many shift registers?
-byte *pValueArray)                      // Array of bytes with LSByte in array [0]
-{
+void sendSerialData (byte registerCount, byte *pValueArray) {
   // Signal to the 595s to listen for data
   digitalWrite (g_pinCommLatch, LOW);
 
